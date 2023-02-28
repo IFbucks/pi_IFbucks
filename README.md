@@ -1,13 +1,9 @@
-# Projeto Integrador - Modelo
+# Projeto Integrador - IFBucks
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
 
-Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https://github.com/AlannKPerini).
+Equipe: [Maria Eduarda Nunes Gerotti](github.com/mariagerotti) e [Isadora Goedert](https://github.com/isagrt).
 
-Links do projeto:
-- [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
-- [Backend](github.com/marcoandre/pi-backend)
-- [Frontend](github.com/marcoandre/pi-frontend)
 
 # Como usar esse modelo para o Projeto Integrador
 
