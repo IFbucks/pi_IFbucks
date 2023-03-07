@@ -2,7 +2,9 @@
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
 
-Equipe: [Maria Eduarda Nunes Gerotti](github.com/mariagerotti) e [Isadora Goedert](https://github.com/isagrt).
+**Equipe:**
+- [Maria Eduarda Nunes Gerotti](github.com/mariagerotti) e 
+- [Isadora Goedert](https://github.com/isagrt).
 
 
 # Como usar esse modelo para o Projeto Integrador
@@ -47,6 +49,13 @@ empresa, como dos status dos serviços.
 # Situação Problema
 
 **Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.**
+
+A cafeteria Amor Doce, uma nova empresa de vendas de doces e cafés e que vem crescendo gradativamente nos últimos tempos. O Sr. Lysandre, dono da empresa, decidiu implementar nosso software para além de otimizar o processo de pedidos (pela quantidade de pedidos crescente), aumentar seus lucros. 
+
+Como rotina diária, 
+Antes do contato com nossos desenvolvedores, mesmo com a contratação de novos funcionários na área de atendimento e cozinha, a empresa convive com diversos problemas com as vendas de produtos, em relação a estocagem, controle de gastos e atendimento ao cliente.
+
+
 
 ![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
 
