@@ -47,3 +47,5 @@ ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada 
 diferente que for explicar (como faria em uma redação); 
 - **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia
 ajudar a resolvê-los.
+
+/*O site de venda de cafés é um e-commerce que oferece uma variedade de cafés para compra online. O software utilizado no site é dividido em duas partes: a parte administrativa e a parte do cliente. Na parte administrativa, os funcionários e o dono da empresa têm acesso a ferramentas para contabilizar gastos, estoques e ganhos de vendas. Já na parte do cliente, existem comandos básicos de compra, onde os clientes podem escolher entre os produtos oferecidos e finalizar a compra. Todo produto vendido é contabilizado e registrado no sistema, incluindo ganhos e gastos diários.*/
