@@ -49,3 +49,19 @@ diferente que for explicar (como faria em uma redação);
 ajudar a resolvê-los.
 
 /*O site de venda de cafés é um e-commerce que oferece uma variedade de cafés para compra online. O software utilizado no site é dividido em duas partes: a parte administrativa e a parte do cliente. Na parte administrativa, os funcionários e o dono da empresa têm acesso a ferramentas para contabilizar gastos, estoques e ganhos de vendas. Já na parte do cliente, existem comandos básicos de compra, onde os clientes podem escolher entre os produtos oferecidos e finalizar a compra. Todo produto vendido é contabilizado e registrado no sistema, incluindo ganhos e gastos diários.*/
+
+<!--Contagem diária de produtos em estoque e produção de produtos em falta.
+Atendimento ao cliente é uma prioridade máxima.
+Contabilidade de todos os produtos vendidos diariamente, com registro de ganhos e gastos.
+Controle de estoque para garantir que os produtos não acabem.
+Contabilidade detalhada dos gastos de cada produto vendido.
+Administração da empresa é responsável por garantir o controle adequado do estoque e dos gastos.
+Gerenciamento de estoque para garantir que os produtos frescos sejam usados antes de expirar.
+A parte do software direcionada aos clientes deve permitir comandos básicos de compra.
+Garantir que o estoque de produtos e os recursos da empresa sejam utilizados de forma eficiente.
+Manter um registro preciso de todas as entradas e saídas do estoque.
+Garantir que haja pessoal suficiente para atender às demandas dos clientes.
+Estar ciente dos custos envolvidos na produção de cada produto e dos preços de venda.
+Manter um nível adequado de estoque de cada produto para evitar a falta de estoque.
+Certificar-se de que o software atenda às necessidades da empresa, aumentando a eficiência e os lucros.
+Garantir que o software seja fácil de usar pelos funcionários e clientes.-->
