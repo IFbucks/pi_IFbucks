@@ -82,17 +82,24 @@ RN0011-Garantir que o software seja fácil de usar pelos funcionários e cliente
 **Entrada**:
 
   RF001: Sistema de Gerenciamento de Estoque
+
   1.1 Registrar as entradas de produtos no estoque, seja por compra ou produção interna.
+
   1.2 Permitir a contagem diária dos produtos existentes em estoque pelos funcionários.
+
   1.3 Registrar a quantidade disponível de cada produto no estoque.
+
   1.4 Alertar automaticamente quando um produto estiver com estoque baixo ou esgotado.
+  
   1.5 Gerar relatórios de estoque para análise e tomada de decisões.
 
 **Processamento:**
 
   RF002: Controle de Produção de Produtos
   2.2 Acompanhar o status da produção dos produtos e notificar quando estiverem prontos para serem adicionados ao estoque.
+
   2.1 Registrar a necessidade de produção de produtos quando estes não estiverem disponíveis em estoque.
+
   2.3 Permitir o registro dos gastos com a compra de ingredientes e materiais necessários para a produção dos produtos.
   
   RF003: Parte Administrativa do Software
@@ -100,17 +107,45 @@ RN0011-Garantir que o software seja fácil de usar pelos funcionários e cliente
   
   RF004: Parte do Cliente do Software
   4.1 Permitir aos clientes visualizar o cardápio dos produtos disponíveis para compra.
+
   4.2 Calcular automaticamente o valor total do pedido do cliente.
+
   4.3 Registrar os pedidos dos clientes para posterior preparação e entrega.
   
-  RF005: Integração com Aplicativos de Delivery
-  5.1 Integrar o software com aplicativos de delivery populares para possibilitar a realização de pedidos online.
-  5.2 Receber e processar pedidos feitos pelos clientes através dos aplicativos de delivery.
-  5.3 Sincronizar automaticamente o estoque com os pedidos recebidos através dos aplicativos de delivery.
 
 **Saída:**
 
   RF006: Saída e Controle de Lucros
   6.1 Registrar as saídas de produtos do estoque devido às vendas realizadas.
+
   6.2 Atualizar automaticamente o estoque com base nas saídas de produtos realizadas.
+
   6.3 Calcular o lucro diário com base nas vendas e nos gastos registrados.
+
+
+  # Requisitos Não Funcionais
+  RNF001: Usabilidade: O software deve possuir uma interface intuitiva e de fácil utilização, tanto para os funcionários quanto para os clientes.
+
+  RNF002: Desempenho:
+
+  2.1 O sistema deve ser capaz de lidar com um alto volume de pedidos e transações, garantindo uma resposta rápida e sem atrasos.
+
+  2.2 Os relatórios e cálculos financeiros devem ser processados de forma eficiente para evitar atrasos nas operações diárias.
+
+  RNF003: Confiabilidade:
+
+  3.1 O software deve ser estável e confiável, evitando falhas e interrupções que possam afetar o funcionamento da cafeteria e o atendimento aos clientes.
+
+  3.2 Deve ser implementado um sistema de backup para garantir a segurança dos dados e a recuperação em caso de falhas.
+
+  RNF004: Segurança:
+
+  4.1 O acesso ao sistema deve ser controlado, com diferentes níveis de permissões para funcionários e o dono da empresa.
+
+  4.2 Devem ser implementadas medidas de segurança para proteger os dados dos clientes, como informações pessoais e detalhes financeiros.
+
+  RNF005: Compatibilidade:
+
+  5.1 O software deve ser compatível com diferentes dispositivos e sistemas operacionais, permitindo seu uso em computadores, tablets e smartphones.
+
+  5.2 Deve suportar diferentes navegadores da web para garantir uma experiência consistente para os clientes que utilizam o sistema de compra online.
