@@ -53,29 +53,24 @@ _O site de venda de cafés é um e-commerce que oferece uma variedade de cafés 
 
 RN001-Contagem diária de produtos em estoque e produção de produtos em falta.
 
-RN002-Atendimento ao cliente é uma prioridade máxima.
-Contabilidade de todos os produtos vendidos diariamente, com registro de ganhos e gastos.
+RN002-Contabilidade de todos os produtos vendidos diariamente, com registro de ganhos e gastos.
 
 RN003-Controle de estoque para garantir que os produtos não acabem.
 Contabilidade detalhada dos gastos de cada produto vendido.
-Administração da empresa é responsável por garantir o controle adequado do estoque e dos gastos.
 
 RN004-Gerenciamento de estoque para garantir que os produtos frescos sejam usados antes de expirar.
 
 RN005-A parte do software direcionada aos clientes deve permitir comandos básicos de compra.
 
-RN006-Garantir que o estoque de produtos e os recursos da empresa sejam utilizados de forma eficiente.
+RN006-Manter um registro preciso de todas as entradas e saídas do estoque.
 
-RN007-Manter um registro preciso de todas as entradas e saídas do estoque.
-Garantir que haja pessoal suficiente para atender às demandas dos clientes.
+RN007-Estar ciente dos custos envolvidos na produção de cada produto e dos preços de venda.
 
-RN008-Estar ciente dos custos envolvidos na produção de cada produto e dos preços de venda.
+RN008-Manter um nível adequado de estoque de cada produto para evitar a falta de estoque.
 
-RN009-Manter um nível adequado de estoque de cada produto para evitar a falta de estoque.
+RN009-Certificar-se de que o software atenda às necessidades da empresa, aumentando a eficiência e os lucros.
 
-RN0010-Certificar-se de que o software atenda às necessidades da empresa, aumentando a eficiência e os lucros.
-
-RN0011-Garantir que o software seja fácil de usar pelos funcionários e clientes.
+RN0010-Garantir que o software seja fácil de usar pelos funcionários e clientes.
 
 
 # Requisitos Funcionais
@@ -96,16 +91,19 @@ RN0011-Garantir que o software seja fácil de usar pelos funcionários e cliente
 **Processamento:**
 
   RF002: Controle de Produção de Produtos
-  2.2 Acompanhar o status da produção dos produtos e notificar quando estiverem prontos para serem adicionados ao estoque.
 
   2.1 Registrar a necessidade de produção de produtos quando estes não estiverem disponíveis em estoque.
+
+  2.2 Acompanhar o status da produção dos produtos e notificar quando estiverem prontos para serem adicionados ao estoque.
 
   2.3 Permitir o registro dos gastos com a compra de ingredientes e materiais necessários para a produção dos produtos.
   
   RF003: Parte Administrativa do Software
+
   3.1 Permitir acesso restrito aos funcionários e ao dono da empresa.
   
-  RF004: Parte do Cliente do Software
+  RF004: Parte do Cliente do Software (App)
+
   4.1 Permitir aos clientes visualizar o cardápio dos produtos disponíveis para compra.
 
   4.2 Calcular automaticamente o valor total do pedido do cliente.
@@ -124,25 +122,22 @@ RN0011-Garantir que o software seja fácil de usar pelos funcionários e cliente
 
 
   # Requisitos Não Funcionais
-  RNF001: Usabilidade: O software deve possuir uma interface intuitiva e de fácil utilização, tanto para os funcionários quanto para os clientes.
+  RNF001:
+   O software deve possuir uma interface intuitiva e de fácil utilização, tanto para os funcionários quanto para os clientes.
 
-  RNF002: Desempenho:
+  RNF002:
 
   2.1 O sistema deve ser capaz de lidar com um alto volume de pedidos e transações, garantindo uma resposta rápida e sem atrasos.
 
   2.2 Os relatórios e cálculos financeiros devem ser processados de forma eficiente para evitar atrasos nas operações diárias.
 
-  RNF003: Confiabilidade:
+  RNF003:
+  
+  O software deve ser estável e confiável, evitando falhas e interrupções que possam afetar o funcionamento da cafeteria e o atendimento aos clientes.
 
-  3.1 O software deve ser estável e confiável, evitando falhas e interrupções que possam afetar o funcionamento da cafeteria e o atendimento aos clientes.
+  RNF004: 
 
-  3.2 Deve ser implementado um sistema de backup para garantir a segurança dos dados e a recuperação em caso de falhas.
-
-  RNF004: Segurança:
-
-  4.1 O acesso ao sistema deve ser controlado, com diferentes níveis de permissões para funcionários e o dono da empresa.
-
-  4.2 Devem ser implementadas medidas de segurança para proteger os dados dos clientes, como informações pessoais e detalhes financeiros.
+  O acesso ao sistema deve ser controlado, com diferentes níveis de permissões para funcionários e o dono da empresa.
 
   RNF005: Compatibilidade:
 
