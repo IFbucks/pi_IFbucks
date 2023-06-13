@@ -9,13 +9,13 @@ Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em D
 
 # Situação Problema
 
-A cafeteria Amor Doce, uma nova empresa de vendas de doces e cafés e que vem crescendo gradativamente nos últimos tempos. E com a vinda de aplicativos de delivery, o Sr. Lysandre, dono da empresa, decidiu implementar nosso software para além de otimizar o processo de pedidos (pela quantidade de pedidos crescente), aumentar seus lucros.
+A Cafeteria IfBucks é um novo estabelecimento de vendas de doces e salgados que tem feito muito sucesso na cidade de Joinville. O objetivo da cafeteria é ampliar suas vendas para alcançar mais pessoas nessa cidade.
 
-Como rotina diária, os funionários fazem a contagem de produtos existentes em estoque, se por um acaso não estiver estes produtos em estoque, é enviado um funcionário para produzir esses produtos. Com a abertura do estabelecimento, o funcionamento ocorre normalmente, com o atendimento dos clientes e produzi-los. Após o fechamento, são contabilizados todos os produtos que foram vendidos no dia, datando ganhos e gastos.
+O funcionamento do café ocorre da seguinte maneira: Quando o cliente chega, ele se dirige ao balcão de atendimento e faz seus pedidos diretamente ao atendente. O atendente registra o pedido em uma comanda, que contém o nome do cliente, a mesa em que o cliente vai se sentar e os produtos que ele pediu. Após o registro dos itens, o atendente leva a comanda para a cozinha, para que os funcionários possam preparar os produtos. Quando o produto está pronto, o garçom leva os itens até a mesa do cliente e entrega a comanda. E quando o cliente estiver satisfeito, ele se dirige novamente ao balcão e entrega a comanda para o atendente, a fim de finalizar o pedido.
 
 A empresa, mesmo com a contratação de novos funcionários na área de atendimento e cozinha, a empresa convive com diversos problemas com as vendas de produtos, em relação a estocagem, controle de gastos e entradas e saidas dos produtos dos estoques e atendimento ao cliente. O software seria dividido em uma parte administrativa, voltado aos funcionários e o dono da empresa, onde eles devem contabilizar os gastos de cada produtos, estocagem e ganhos de venda. E outra parte, será direcionada ao cliente, com comandos básicos de compra.
 
-![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
+
 
 Descrevem o que acontece atualmente na empresa em um contexto global,
 abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
