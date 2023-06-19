@@ -39,27 +39,53 @@ Para finalizar o pedido, o cliente, com seu próprio smartphone, poderá ver seu
 
 # Regras de Negócio
 
-RN001-Contagem diária de produtos em estoque e produção de produtos em falta.
+Regras de Negócio:
 
-RN002-Contabilidade de todos os produtos vendidos diariamente, com registro de ganhos e gastos.
+**1. Registro do Cliente:**
 
-RN003-Controle de estoque para garantir que os produtos não acabem.
-Contabilidade detalhada dos gastos de cada produto vendido.
+   1.1. O cliente deve fornecer seu nome e número da mesa para registrar-se no sistema e fazer um pedido.
 
-RN004-Gerenciamento de estoque para garantir que os produtos frescos sejam usados antes de expirar.
+**2. Pedidos dos Clientes:**
 
-RN005-A parte do software direcionada aos clientes deve permitir comandos básicos de compra.
+   3.1. Os clientes podem adicionar produtos ao seu pedido, especificando a quantidade desejada.
 
-RN006-Manter um registro preciso de todas as entradas e saídas do estoque.
+   3.2. Os produtos podem ser removidos do pedido antes de serem finalizados.
 
-RN007-Estar ciente dos custos envolvidos na produção de cada produto e dos preços de venda.
+   3.3. Um pedido só pode ser finalizado após a seleção de todos os produtos desejados.
 
-RN008-Manter um nível adequado de estoque de cada produto para evitar a falta de estoque.
+   3.4. Após a finalização do pedido, ele é encaminhado para a cozinha para preparação.
 
-RN009-Certificar-se de que o software atenda às necessidades da empresa, aumentando a eficiência e os lucros.
+**3. Preparação e Entrega dos Pedidos:**
+   
+   4.1. A cozinha recebe os pedidos em aberto e prepara os produtos conforme solicitado.
 
-RN0010-Garantir que o software seja fácil de usar pelos funcionários e clientes.
+   4.2. O garçom recebe os produtos preparados e os entrega na mesa correspondente ao pedido.
 
+**4. Gerenciamento de Produtos:**
+   
+   2.1. O catálogo de produtos deve ser atualizado regularmente pelo gerente.
+
+   5.1. O gerente tem a responsabilidade de cadastrar novos produtos, especificando seu nome, preço, descrição e outras informações relevantes.
+
+   5.2. O gerente pode editar as informações dos produtos existentes, como nome, preço, descrição, etc.
+
+   5.3. O gerente pode excluir produtos do sistema quando necessário.
+
+**5. Relatórios de Vendas:**
+
+   6.1. O gerente pode gerar relatórios de vendas que fornecem informações sobre as transações realizadas.
+
+**6. Integração com o Site de Pedidos:**
+
+   8.1. O site de pedidos deve permitir que o cliente cadastre seu nome e número da mesa para fazer um pedido.
+
+   8.2. O site de pedidos deve sincronizar os pedidos realizados pelos clientes com o sistema interno da cozinha para que os pedidos possam ser preparados adequadamente.
+
+**7. Experiência do Cliente:**
+   
+   9.1. O sistema deve proporcionar uma experiência agradável e intuitiva para o cliente, facilitando a navegação, seleção de produtos e finalização da compra.
+
+   10.1. O sistema deve estar disponível durante o horário de funcionamento do estabelecimento, permitindo que os clientes façam pedidos dentro desse período.
 
 # Requisitos Funcionais
 
@@ -88,25 +114,15 @@ RN0010-Garantir que o software seja fácil de usar pelos funcionários e cliente
    3.4. O sistema deve permitir que o gerente gere relatórios de vendas.
 
   # Requisitos Não Funcionais
-  RNF001:
-   O software deve possuir uma interface intuitiva e de fácil utilização, tanto para os funcionários quanto para os clientes.
 
-  RNF002:
+**1. Usabilidade:**
+   
+  **RNF001.1.** O software deve ter uma interface de usuário intuitiva e de fácil utilização para os clientes, cozinheiros e gerentes.
 
-  2.1 O sistema deve ser capaz de lidar com um alto volume de pedidos e transações, garantindo uma resposta rápida e sem atrasos.
+   **RNF001.2.** O site de pedidos deve ser responsivo, adaptando-se a diferentes tamanhos de tela de dispositivos móveis.
+ 
+   **RNF001.3.** O sistema deve estar disponível durante o horário de funcionamento do estabelecimento, garantindo acesso contínuo aos usuários.
 
-  2.2 Os relatórios e cálculos financeiros devem ser processados de forma eficiente para evitar atrasos nas operações diárias.
+**2. Segurança:**
 
-  RNF003:
-  
-  O software deve ser estável e confiável, evitando falhas e interrupções que possam afetar o funcionamento da cafeteria e o atendimento aos clientes.
-
-  RNF004: 
-
-  O acesso ao sistema deve ser controlado, com diferentes níveis de permissões para funcionários e o dono da empresa.
-
-  RNF005: Compatibilidade:
-
-  5.1 O software deve ser compatível com diferentes dispositivos e sistemas operacionais, permitindo seu uso em computadores, tablets e smartphones.
-
-  5.2 Deve suportar diferentes navegadores da web para garantir uma experiência consistente para os clientes que utilizam o sistema de compra online.
+   **RNF001.1.** O software deve ter mecanismos de autenticação e autorização para garantir que apenas usuários autorizados possam acessar as funcionalidades adequadas.
