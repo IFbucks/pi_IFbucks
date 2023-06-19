@@ -62,52 +62,30 @@ RN0010-Garantir que o software seja fácil de usar pelos funcionários e cliente
 
 
 # Requisitos Funcionais
-**Entrada**:
 
-  RF001: Sistema de Gerenciamento de Estoque
+**1. Interface do Cliente:**
+   
+   1.1. O sistema deve exibir uma lista de produtos disponíveis para o cliente.
 
-  1.1 Registrar as entradas de produtos no estoque, seja por compra ou produção interna.
+   1.2. O cliente deve ter a opção de adicionar produtos ao seu pedido.
 
-  1.2 Permitir a contagem diária dos produtos existentes em estoque pelos funcionários.
+   1.3. O cliente deve poder remover produtos do seu pedido.
 
-  1.3 Registrar a quantidade disponível de cada produto no estoque.
+   1.4. O cliente deve ter a opção de finalizar sua compra.
 
-  1.4 Alertar automaticamente quando um produto estiver com estoque baixo ou esgotado.
-  
-  1.5 Gerar relatórios de estoque para análise e tomada de decisões.
+**2. Interface do Barista:**
 
-**Processamento:**
+   2.1. O sistema deve exibir uma lista dos pedidos em aberto para que o barista possa visualizá-los.
 
-  RF002: Controle de Produção de Produtos
+**3. Interface do Gerente:**
 
-  2.1 Registrar a necessidade de produção de produtos quando estes não estiverem disponíveis em estoque.
+   3.1. O gerente deve ter a opção de cadastrar novos produtos no sistema.
 
-  2.2 Acompanhar o status da produção dos produtos e notificar quando estiverem prontos para serem adicionados ao estoque.
+   3.2. O gerente deve poder excluir produtos existentes do sistema.
 
-  2.3 Permitir o registro dos gastos com a compra de ingredientes e materiais necessários para a produção dos produtos.
-  
-  RF003: Parte Administrativa do Software
+   3.3. O gerente deve ter a capacidade de editar as informações dos produtos (como nome, preço, descrição, etc.).
 
-  3.1 Permitir acesso restrito aos funcionários e ao dono da empresa.
-  
-  RF004: Parte do Cliente do Software (App)
-
-  4.1 Permitir aos clientes visualizar o cardápio dos produtos disponíveis para compra.
-
-  4.2 Calcular automaticamente o valor total do pedido do cliente.
-
-  4.3 Registrar os pedidos dos clientes para posterior preparação e entrega.
-  
-
-**Saída:**
-
-  RF006: Saída e Controle de Lucros
-  6.1 Registrar as saídas de produtos do estoque devido às vendas realizadas.
-
-  6.2 Atualizar automaticamente o estoque com base nas saídas de produtos realizadas.
-
-  6.3 Calcular o lucro diário com base nas vendas e nos gastos registrados.
-
+   3.4. O sistema deve permitir que o gerente gere relatórios de vendas.
 
   # Requisitos Não Funcionais
   RNF001:
