@@ -4,49 +4,37 @@ Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em D
 
 **Equipe:**
 
-- [Maria Eduarda Nunes Gerotti](github.com/mariagerotti) e
-- [Isadora Goedert](https://github.com/isagrt).
+- [Isadora Goedert](https://github.com/isagrt) e
+- [Maria Eduarda Nunes Gerotti](github.com/mariagerotti).
 
 # Situação Problema
 
-A Cafeteria IfBucks é um novo estabelecimento de vendas de doces e salgados que tem feito muito sucesso na cidade de Joinville. O objetivo da cafeteria é ampliar suas vendas para alcançar mais pessoas nessa cidade.
+A Cafeteria IfBucks é um novo estabelecimento de vendas de cafés, doces e salgados que tem feito muito sucesso na cidade de Joinville. O objetivo da cafeteria é ampliar suas vendas para alcançar mais pessoas nessa cidade.
 
-O funcionamento do café ocorre da seguinte maneira: Quando o cliente chega, ele se dirige ao balcão de atendimento e faz seus pedidos diretamente ao atendente. O atendente registra o pedido em uma comanda, que contém o nome do cliente, a mesa em que o cliente vai se sentar e os produtos que ele pediu. Após o registro dos itens, o atendente leva a comanda para a cozinha, para que os funcionários possam preparar os produtos. Quando o produto está pronto, o garçom leva os itens até a mesa do cliente e entrega a comanda. E quando o cliente estiver satisfeito, ele se dirige novamente ao balcão e entrega a comanda para o atendente, a fim de finalizar o pedido.
+O funcionamento atual do café ocorre da seguinte maneira: 
+Quando o cliente chega, ele se dirige ao balcão de atendimento e faz seus pedidos diretamente ao atendente.
+ O atendente registra o pedido em uma comanda, que contém o nome do cliente, a mesa em que ele irá se sentar e os produtos que ele pediu.
+Após o registro dos itens, o atendente leva a comanda para a cozinha, para que os funcionários possam preparar os produtos. 
+Quando o produto está pronto, o garçom leva os itens até a mesa do cliente e entrega a comanda. 
+E quando o cliente estiver satisfeito, ele se dirige novamente ao balcão e entrega a comanda para o atendente, a fim de pagar e finalizar o pedido.
 
-A empresa, mesmo com a contratação de novos funcionários na área de atendimento e cozinha, a empresa convive com diversos problemas com as vendas de produtos, em relação a estocagem, controle de gastos e entradas e saidas dos produtos dos estoques e atendimento ao cliente. O software seria dividido em uma parte administrativa, voltado aos funcionários e o dono da empresa, onde eles devem contabilizar os gastos de cada produtos, estocagem e ganhos de venda. E outra parte, será direcionada ao cliente, com comandos básicos de compra.
+O *objetivo* da empresa é *ampliar suas vendas*, logo, é necessária a criação de um software em que sua interface se direcionaria para *três usuários*:
+
+**Cliente**: a interface listará produtos, com opções de adicionar e deletar produtos ao pedido e finalizar compra.
+
+**Barista**: a interface listará os pedidos em aberto e neles visualizar os itens de cada pedido.
+
+**Gerente**: na interface será possível cadastrar novos produtos, deletar produtos, editar produtos, gerar e visualizar relatórios de vendas.
+
+**Como funcionará o estabelecimento após a inserção do software?**
+
+O cliente chega no estabelecimento e logo senta em sua mesa, lá será possível escanear um qr code pelo smartphone para ter acesso ao site de pedidos. 
+Nesse site, ele terá de cadastrar seu nome e sua respectiva mesa, e assim, fazer o pedido desejado. 
+Após a realização do pedido, ele será enviado para o sistema da cozinha, que irá conter a listagem de pedidos em aberto para que os baristas possam produzir.
+ A entrega do produto seria de maneira tradicional, o garçom recebe o pedido no balcão da cozinha e leva para a mesa do cliente. 
+Para finalizar o pedido, o cliente, com seu próprio smartphone, poderá ver seu pedido em aberto e nele poderá finalizar sua compra.
 
 
-
-Descrevem o que acontece atualmente na empresa em um contexto global,
-abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
-
-Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
-atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
-
-- Pesquise sobre empresas do ramo escolhido
-  para entender como funcionam;
-- Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
-- Simule uma situação real. Lembre-se que são
-  propostas com empresas fictícias, sendo assim,
-  você terá que tomar certas decisões sobre como
-  a empresa funciona em relação às coisas que
-  não estão definidas no documento base (por
-  exemplo, no caso da padaria, dizemos que seu
-  Genival contratou mais funcionários, mas saber
-  quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a
-  empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
-
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
-
-- **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários,
-  etc);
-- **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma
-  ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa
-  diferente que for explicar (como faria em uma redação);
-- **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia
-  ajudar a resolvê-los.
-
-_O site de venda de cafés é um e-commerce que oferece uma variedade de cafés para compra online. O software utilizado no site é dividido em duas partes: a parte administrativa e a parte do cliente. Na parte administrativa, os funcionários e o dono da empresa têm acesso a ferramentas para contabilizar gastos, estoques e ganhos de vendas. Já na parte do cliente, existem comandos básicos de compra, onde os clientes podem escolher entre os produtos oferecidos e finalizar a compra. Todo produto vendido é contabilizado e registrado no sistema, incluindo ganhos e gastos diários._
 
 
 # Regras de Negócio
