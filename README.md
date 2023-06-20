@@ -47,45 +47,45 @@ Regras de Negócio:
 
 **2. Pedidos dos Clientes:**
 
-   3.1. Os clientes podem adicionar produtos ao seu pedido, especificando a quantidade desejada.
+   2.1. Os clientes podem adicionar produtos ao seu pedido, especificando a quantidade desejada.
 
-   3.2. Os produtos podem ser removidos do pedido antes de serem finalizados.
+   2.2. Os produtos podem ser removidos do pedido antes de serem finalizados.
 
-   3.3. Um pedido só pode ser finalizado após a seleção de todos os produtos desejados.
+   2.3. Um pedido só pode ser finalizado após a seleção de todos os produtos desejados.
 
-   3.4. Após a finalização do pedido, ele é encaminhado para a cozinha para preparação.
+   2.4. Após a finalização do pedido, ele é encaminhado para a cozinha para preparação.
 
 **3. Preparação e Entrega dos Pedidos:**
    
-   4.1. A cozinha recebe os pedidos em aberto e prepara os produtos conforme solicitado.
+   3.1. A cozinha recebe os pedidos em aberto e prepara os produtos conforme solicitado.
 
-   4.2. O garçom recebe os produtos preparados e os entrega na mesa correspondente ao pedido.
+   3.2. O garçom recebe os produtos preparados e os entrega na mesa correspondente ao pedido.
 
 **4. Gerenciamento de Produtos:**
    
-   2.1. O catálogo de produtos deve ser atualizado regularmente pelo gerente.
+   4.1. O catálogo de produtos deve ser atualizado regularmente pelo gerente.
 
-   5.1. O gerente tem a responsabilidade de cadastrar novos produtos, especificando seu nome, preço, descrição e outras informações relevantes.
+   4.2. O gerente tem a responsabilidade de cadastrar novos produtos, especificando seu nome, preço, descrição e outras informações relevantes.
 
-   5.2. O gerente pode editar as informações dos produtos existentes, como nome, preço, descrição, etc.
+   4.3. O gerente pode editar as informações dos produtos existentes, como nome, preço, descrição, etc.
 
-   5.3. O gerente pode excluir produtos do sistema quando necessário.
+   4.4. O gerente pode excluir produtos do sistema quando necessário.
 
 **5. Relatórios de Vendas:**
 
-   6.1. O gerente pode gerar relatórios de vendas que fornecem informações sobre as transações realizadas.
+   5.1. O gerente pode gerar relatórios de vendas que fornecem informações sobre as transações realizadas.
 
 **6. Integração com o Site de Pedidos:**
 
-   8.1. O site de pedidos deve permitir que o cliente cadastre seu nome e número da mesa para fazer um pedido.
+   6.1. O site de pedidos deve permitir que o cliente cadastre seu nome e número da mesa para fazer um pedido.
 
-   8.2. O site de pedidos deve sincronizar os pedidos realizados pelos clientes com o sistema interno da cozinha para que os pedidos possam ser preparados adequadamente.
+   6.2. O site de pedidos deve sincronizar os pedidos realizados pelos clientes com o sistema interno da cozinha para que os pedidos possam ser preparados adequadamente.
 
 **7. Experiência do Cliente:**
    
-   9.1. O sistema deve proporcionar uma experiência agradável e intuitiva para o cliente, facilitando a navegação, seleção de produtos e finalização da compra.
+   7.1. O sistema deve proporcionar uma experiência agradável e intuitiva para o cliente, facilitando a navegação, seleção de produtos e finalização da compra.
 
-   10.1. O sistema deve estar disponível durante o horário de funcionamento do estabelecimento, permitindo que os clientes façam pedidos dentro desse período.
+   7.1. O sistema deve estar disponível durante o horário de funcionamento do estabelecimento, permitindo que os clientes façam pedidos dentro desse período.
 
 # Requisitos Funcionais
 
